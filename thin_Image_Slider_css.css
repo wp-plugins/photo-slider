@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+#thin_Image_Slider
+{
+	
+	position:relative;
+	overflow:hidden;
+	text-align:center;
+  
+}
+#thin_Image_Slider .thin_slides
+{
+	margin:0;
+	padding:0;
+	position:absolute;
+	bottom:0;
+	padding-bottom:5px;
+	padding-right:5px;
+	position:relative;
+	
+	
+}
+#thin_Image_Slider .thin_slides .thin_slidetext
+{
+	position:absolute;
+	left:0px;
+	bottom:5px;
+	width:100%;
+	background-color:#eee;
+	height:50px;
+	line-height:50px;	
+	color:#000000;
+	opacity:0.7;
+	filter: alpha(opacity = 70);
+
+	
+}
+.slides a
+{
+	text-decoration:none;
+}
+#thin_slideshow
+{
+	
+	overflow:hidden;
+	text-align:center;
+}
+
+#thin_slideshow span
+{
+	display:block;
+	line-height:50px;
+	text-align:center;
+	
+}
+#thin_slideshow div.prev
+{
+	z-index:1;
+}
+#thin_slideshow div.thin_active
+{
+	z-index:2;
+}
